@@ -3,7 +3,7 @@ Dieser Passwort-Manager ist eine Kommandozeilenanwendung (CLI), die ich mit Pyth
 Mit dem Programm kann man Login-Daten für verschiedene Websites speichern und verwalten. 
 
 Beim ersten Start wird ein Master-Passwort festgelegt, das nicht im Klartext gespeichert wird. 
-Stattdessen wird es mit dem SHA256-Algorithmus gehashed und als Hash-Wert in einer JSON-Datei abgelegt. 
+Stattdessen wird es mit dem SHA256-Algorithmus gehashed und als Hash-Wert in einer JSON-Datei abgelegt.
 Beim späteren Login wird das eingegebene Passwort ebenfalls gehashed und mit dem gespeicherten Wert verglichen, 
 um die Authentifizierung durchzuführen.
 
